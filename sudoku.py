@@ -16,7 +16,7 @@ for row in sudoku:
     row_nu+=1
     if row_nu in range(1,20,3):  # if row == 1 or row == 4 or row == 7
         print("-"*21)
-    for num in rows:
+    for num in row:
         col_nu+=1
         if col_nu in range (4,20,3):  # if col == 4 or col == 7
             print("|", end=" ")
